@@ -39,7 +39,7 @@
 
         <br>
 
-        click me ...
+        click it ...
     </section>
 </main>
 
