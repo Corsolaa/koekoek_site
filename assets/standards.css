@@ -34,3 +34,23 @@ summary,
 [type=checkbox] {
     cursor: pointer;
 }
+
+.flex_center {
+    display: flex;
+    justify-content: center;
+}
+
+.hide_mobile {
+    display: none;
+}
+
+/* after tablet width */
+@media (min-width: 768px) {
+    .hide_mobile {
+        display: block;
+    }
+
+    .only_show_mobile {
+        display: none;
+    }
+}

@@ -4,15 +4,15 @@ body {
 }
 
 header, footer {
-    height: 100px;
+    height: 125px;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 footer {
     height: 50px;
     background: #818181;
+    align-items: center;
+    justify-content: center;
 }
 
 main {
@@ -26,26 +26,55 @@ main {
 }
 
 header {
-    .logo_container {
-        position: relative;
-        margin-right: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
-        svg {
-            max-width: none;
+    width: 100%;
+    max-width: 1400px;
 
-            width: 100px;
-            height: 100px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
+    margin: auto;
+    padding: 20px 0;
 
-            z-index: -1;
-            transform: translate(-50%, -50%);
-        }
+    .logo {
+        height: 100%;
+        width: 100%;
 
         img {
-            height: 50px
+            height: 100%;
         }
+    }
+
+    nav {
+        width: 100%;
+        margin-top: 25px;
+
+        ul {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+
+            width: 50%;
+
+            list-style-type: none;
+
+            li {
+                a {
+                    display: block;
+                    padding: 15px 25px;
+                    text-decoration: none;
+                    color: inherit;
+                }
+
+                a.selected {
+                    text-decoration: underline;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .quick {
+        width: 50%;
     }
 }
 
