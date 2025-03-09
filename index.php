@@ -27,15 +27,18 @@
     </div>
 
     <nav class="flex_center">
-        <ul class="only_show_mobile">
-            mobile nav
-        </ul>
+        <div class="mobile_menu only_show_mobile">
+            <a href="">Consult</a>
+            <a href="">Project</a>
+            <a href="">Beheer</a>
+        </div>
         <ul class="hide_mobile">
             <li><a href="">Project</a></li>
             <li><a class="selected" href="">Consult</a></li>
             <li><a href="">Beheer</a></li>
         </ul>
         <div class="quick flex_center">
+            <span>menu</span>
             <button>Contact</button>
         </div>
     </nav>
@@ -43,16 +46,35 @@
 
 <main>
     <section class="content">
-        <a class="koekoek_link" target="_blank" href="https://youtu.be/982YE6IrH6A?t=501">koekoek jonge!</a>
-
-        <br>
-
-        click it ...
+        <div class="text_container">
+            <span class="header">Consult</span> <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid aspernatur assumenda cumque cupiditate delectus esse fugit illum in ipsa laborum maiores minima nihil, sapiente sit tempore, voluptas voluptate. Ad aliquid amet assumenda eligendi enim sed sequi temporibus vero! Praesentium.
+        </div>
+        <div class="text_container">
+            <span class="header">Project</span> <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi culpa debitis dicta, ea error et eum illo in inventore iste iure labore laudantium magnam magni modi odio perspiciatis placeat possimus quasi repellat repudiandae suscipit temporibus totam velit vitae voluptates?
+        </div>
+        <div class="text_container">
+            <span class="header">Beheer</span> <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae cumque est ipsam maiores molestiae odio officia repellendus rerum sit soluta. Aspernatur, cupiditate debitis dignissimos doloremque doloribus eius harum ipsa maxime molestiae nam nesciunt quas qui suscipit unde veniam! Animi, dignissimos.
+        </div>
     </section>
 </main>
 
 <footer>
-    <p style="color: white">made with ❤️ by Bruno</p>
+    <div class="upper">
+        <div class="list_section">
+            <span class="header">koekoek</span>
+            <a href="">over ons</a>
+            <a href="">werken bij</a>
+            <a href="">cases</a>
+            <a href="">support</a>
+            <a href="">contact us</a>
+        </div>
+    </div>
+    <div class="lower">
+        <p>made with ❤️ by <a href="https://www.brunobouwman.nl/">Bruno</a></p>
+    </div>
 </footer>
 
 </body>
