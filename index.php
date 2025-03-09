@@ -30,17 +30,13 @@
         <div class="mobile_menu only_show_mobile">
             <a href="">Consult</a>
             <a href="">Project</a>
-            <a href="">Beheer</a>
+            <a href="" style="text-decoration: underline">Contact</a>
         </div>
         <ul class="hide_mobile">
             <li><a href="">Project</a></li>
             <li><a class="selected" href="">Consult</a></li>
             <li><a href="">Beheer</a></li>
         </ul>
-        <div class="quick flex_center">
-            <span>menu</span>
-            <button>Contact</button>
-        </div>
     </nav>
 </header>
 
