@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="assets/standards.css">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/vars.css">
 
     <link rel="icon" href="icon.ico">
 
@@ -22,7 +23,7 @@
 <body>
 
 <header>
-    <div class="logo flex_center">
+    <div class="logo">
         <img src="images/koekoek_logo.webp" alt="">
     </div>
 
@@ -58,18 +59,20 @@
 </main>
 
 <footer>
-    <div class="upper">
-        <div class="list_section">
-            <span class="header">koekoek</span>
-            <a href="">over ons</a>
-            <a href="">werken bij</a>
-            <a href="">cases</a>
-            <a href="">support</a>
-            <a href="">contact us</a>
+    <div class="inner">
+        <div class="upper">
+            <div class="list_section">
+                <span class="header">koekoek</span>
+                <a href="">over ons</a>
+                <a href="">werken bij</a>
+                <a href="">cases</a>
+                <a href="">support</a>
+                <a href="">contact us</a>
+            </div>
         </div>
-    </div>
-    <div class="lower">
-        <p>made with ❤️ by <a href="https://www.brunobouwman.nl/">Bruno</a></p>
+        <div class="lower">
+            <p>made with ❤️ by <a href="https://www.brunobouwman.nl/">Bruno</a></p>
+        </div>
     </div>
 </footer>
 
