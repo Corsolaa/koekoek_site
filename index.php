@@ -45,11 +45,7 @@
     <section class="content">
         <div class="text_container">
             <span class="header">IT oplossing van jonge vogels.</span> <br><br>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, nam natus! Aspernatur consequatur dicta eius incidunt nostrum officiis quod ullam.</span>
-        </div>
-
-        <div class="image_container">
-            <img src="images/koekoek_logo.webp" alt="">
+            <span>Koekoek biedt strategisch IT-advies, projectmanagement en managed services. Wij begeleiden cloudmigraties, IT-transities en AI-integraties met een gestructureerde aanpak. Efficiënt, schaalbaar en resultaatgericht.</span>
         </div>
 
         <div class="container item_container">

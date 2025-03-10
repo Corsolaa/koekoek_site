@@ -124,10 +124,6 @@ main {
             padding: var(--content-padding);
         }
 
-        .image_container {
-            padding: var(--content-padding);
-        }
-
         .item_container {
             margin-left: var(--content-padding);
             margin-right: var(--content-padding);
