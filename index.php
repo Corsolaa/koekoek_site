@@ -24,14 +24,14 @@
 
 <header>
     <div class="logo">
-        <img src="images/koekoek_logo.webp" alt="">
+        <img src="images/koekoek_bird_logo.webp" alt="">
     </div>
 
     <nav class="flex_center">
         <div class="mobile_menu only_show_mobile">
             <a href="">Consult</a>
             <a href="">Project</a>
-            <a href="" style="text-decoration: underline">Contact</a>
+            <a href="">Beheer</a>
         </div>
         <ul class="hide_mobile">
             <li><a href="">Project</a></li>
@@ -44,16 +44,48 @@
 <main>
     <section class="content">
         <div class="text_container">
-            <span class="header">Consult</span> <br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid aspernatur assumenda cumque cupiditate delectus esse fugit illum in ipsa laborum maiores minima nihil, sapiente sit tempore, voluptas voluptate. Ad aliquid amet assumenda eligendi enim sed sequi temporibus vero! Praesentium.
+            <span class="header">IT oplossing van jonge vogels.</span> <br><br>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, nam natus! Aspernatur consequatur dicta eius incidunt nostrum officiis quod ullam.</span>
         </div>
-        <div class="text_container">
-            <span class="header">Project</span> <br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi culpa debitis dicta, ea error et eum illo in inventore iste iure labore laudantium magnam magni modi odio perspiciatis placeat possimus quasi repellat repudiandae suscipit temporibus totam velit vitae voluptates?
+
+        <div class="image_container">
+            <img src="images/koekoek_logo.webp" alt="">
         </div>
-        <div class="text_container">
-            <span class="header">Beheer</span> <br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae cumque est ipsam maiores molestiae odio officia repellendus rerum sit soluta. Aspernatur, cupiditate debitis dignissimos doloremque doloribus eius harum ipsa maxime molestiae nam nesciunt quas qui suscipit unde veniam! Animi, dignissimos.
+
+        <div class="container item_container">
+            <span class="header">Consult</span>
+            <div class="list_collection">
+                <ul>
+                    <li><i class="fa-solid fa-egg"></i> maatwerk</li>
+                    <li><i class="fa-solid fa-egg"></i> ondersteuning</li>
+                </ul>
+            </div>
+            <div class="divider"></div>
+            <span style="font-style: italic">Jij legt het ei, wij broeden het uit.</span>
+        </div>
+        <div class="container item_container">
+            <span class="header">Project</span>
+            <div class="list_collection">
+                <ul>
+                    <li><i class="fa-solid fa-egg"></i> implementaties</li>
+                    <li><i class="fa-solid fa-egg"></i> (cloud) migratie</li>
+                    <li><i class="fa-solid fa-egg"></i> optimalisaties</li>
+                </ul>
+            </div>
+            <div class="divider"></div>
+            <span style="font-style: italic">Vliegen zonder turbulentie.</span>
+        </div>
+        <div class="container item_container">
+            <span class="header">Beheer</span>
+            <div class="list_collection">
+                <ul>
+                    <li><i class="fa-solid fa-egg"></i> netwerkbeheer</li>
+                    <li><i class="fa-solid fa-egg"></i> werkplekken</li>
+                    <li><i class="fa-solid fa-egg"></i> hosting</li>
+                </ul>
+            </div>
+            <div class="divider"></div>
+            <span style="font-style: italic">Geen stress in het nest.</span>
         </div>
     </section>
 </main>
@@ -62,7 +94,7 @@
     <div class="inner">
         <div class="upper">
             <div class="list_section">
-                <span class="header">koekoek</span>
+                <img style="width: 140px; padding: 10px 0" src="images/koekoek_text_white.webp" alt="">
                 <a href="">over ons</a>
                 <a href="">werken bij</a>
                 <a href="">cases</a>
@@ -75,6 +107,8 @@
         </div>
     </div>
 </footer>
+
+<script src="https://kit.fontawesome.com/947c4c8fa0.js" crossorigin="anonymous"></script>
 
 </body>
 </html>

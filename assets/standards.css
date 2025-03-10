@@ -44,6 +44,13 @@ summary,
     display: none;
 }
 
+@font-face {
+    font-family: 'koekoek';
+    src: url('/assets/fonts/Museo700-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 button {
     display: inline-block;
 
@@ -60,6 +67,15 @@ button {
 .header {
     font-weight: bold;
     font-size: 2em;
+    font-family: "koekoek", serif;
+}
+
+.divider {
+    border-bottom: 1px solid #3E4042;
+    height: 1px;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /* after tablet width */
