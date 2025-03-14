@@ -129,7 +129,7 @@ main {
             margin-right: var(--content-padding);
             padding: var(--content-padding);
 
-            border: 3px solid #58585b;
+            border: 1px solid #58585b;
             border-radius: var(--content-padding);
 
             .list_collection {
