@@ -132,6 +132,20 @@ main {
             border: 1px solid #58585b;
             border-radius: var(--content-padding);
 
+            .top {
+                position: relative;
+
+                .emoji {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+
+                    height: 80px;
+                    aspect-ratio: 1;
+                    background: #e6b400;
+                }
+            }
+
             .list_collection {
                 display: flex;
                 flex-direction: row;

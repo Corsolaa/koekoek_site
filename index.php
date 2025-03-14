@@ -49,36 +49,51 @@
         </div>
 
         <div class="container item_container">
-            <span class="header">Consult</span>
-            <div class="list_collection">
-                <ul>
-                    <li><i class="fa-solid fa-egg"></i> maatwerk</li>
-                    <li><i class="fa-solid fa-egg"></i> ondersteuning</li>
-                </ul>
+            <div class="top">
+                <span class="header">Consult</span>
+                <div class="list_collection">
+                    <ul>
+                        <li><i class="fa-solid fa-egg"></i> maatwerk</li>
+                        <li><i class="fa-solid fa-egg"></i> ondersteuning</li>
+                    </ul>
+                </div>
+                <div class="emoji">
+                    <img src="images/icons/rocket.webp" alt="rocket emoji">
+                </div>
             </div>
             <div class="divider"></div>
             <span style="font-style: italic">Jij legt het ei, wij broeden het uit.</span>
         </div>
         <div class="container item_container">
-            <span class="header">Project</span>
-            <div class="list_collection">
-                <ul>
-                    <li><i class="fa-solid fa-egg"></i> implementaties</li>
-                    <li><i class="fa-solid fa-egg"></i> (cloud) migratie</li>
-                    <li><i class="fa-solid fa-egg"></i> optimalisaties</li>
-                </ul>
+            <div class="top">
+                <span class="header">Project</span>
+                <div class="list_collection">
+                    <ul>
+                        <li><i class="fa-solid fa-egg"></i> implementaties</li>
+                        <li><i class="fa-solid fa-egg"></i> (cloud) migratie</li>
+                        <li><i class="fa-solid fa-egg"></i> optimalisaties</li>
+                    </ul>
+                </div>
+                <div class="emoji">
+                    <img src="images/icons/plane.webp" alt="plane emoji">
+                </div>
             </div>
             <div class="divider"></div>
             <span style="font-style: italic">Vliegen zonder turbulentie.</span>
         </div>
         <div class="container item_container">
-            <span class="header">Beheer</span>
-            <div class="list_collection">
-                <ul>
-                    <li><i class="fa-solid fa-egg"></i> netwerkbeheer</li>
-                    <li><i class="fa-solid fa-egg"></i> werkplekken</li>
-                    <li><i class="fa-solid fa-egg"></i> hosting</li>
-                </ul>
+            <div class="top">
+                <span class="header">Beheer</span>
+                <div class="list_collection">
+                    <ul>
+                        <li><i class="fa-solid fa-egg"></i> netwerkbeheer</li>
+                        <li><i class="fa-solid fa-egg"></i> werkplekken</li>
+                        <li><i class="fa-solid fa-egg"></i> hosting</li>
+                    </ul>
+                </div>
+                <div class="emoji">
+                    <img src="images/icons/nest_eggs.webp" alt="eggs in nest emoji">
+                </div>
             </div>
             <div class="divider"></div>
             <span style="font-style: italic">Geen stress in het nest.</span>
