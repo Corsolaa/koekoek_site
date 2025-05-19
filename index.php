@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="hide_scrollbar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -7,7 +7,7 @@
     <meta name="robots" content="noindex, nofollow">
     <meta name="author" content="John Spice">
     <meta name="description" content="a very birdy website">
-    <title>Koekoek BV</title>
+    <title>koekoek</title>
 
     <link rel="stylesheet" href="assets/standards.css">
     <link rel="stylesheet" href="assets/style.css">
@@ -20,106 +20,93 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 </head>
+
+<!--<body class="lock_scroll">-->
 <body>
 
 <header>
-    <div class="logo">
-        <img src="images/koekoek_bird_logo.webp" alt="">
-    </div>
-
-    <nav class="flex_center">
-        <div class="mobile_menu only_show_mobile">
-            <a href="">Consult</a>
-            <a href="">Project</a>
-            <a href="">Beheer</a>
+    <div class="container">
+        <div class="koekoek_logo">
+            <span>koekoek</span>
+            <span class="blue-font">></span>
         </div>
-        <ul class="hide_mobile">
-            <li><a href="">Project</a></li>
-            <li><a class="selected" href="">Consult</a></li>
-            <li><a href="">Beheer</a></li>
-        </ul>
-    </nav>
+        <div class="mobile_nav_button">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 14.7448H14V12.7501H0V14.7448ZM0 8.76075H14V6.76606H0V8.76075ZM0 0.782013V2.7767H14V0.782013H0Z" fill="#E3E3E3"/>
+            </svg>
+        </div>
+    </div>
 </header>
 
-<main>
-    <section class="content">
-        <div class="text_container">
-            <span class="header">IT oplossing van jonge vogels.</span> <br><br>
-            <span>Koekoek biedt strategisch IT-advies, projectmanagement en managed services. Wij begeleiden cloudmigraties, IT-transities en AI-integraties met een gestructureerde aanpak. Efficiënt, schaalbaar en resultaatgericht.</span>
-        </div>
+<nav class="mobile hide_scrollbar">
+    <div class="item">
+        <div class="text">Consult <span class="blue-font">></span></div>
 
-        <div class="container item_container">
-            <div class="top">
-                <span class="header">Consult</span>
-                <div class="list_collection">
-                    <ul>
-                        <li><i class="fa-solid fa-egg"></i> maatwerk</li>
-                        <li><i class="fa-solid fa-egg"></i> ondersteuning</li>
-                    </ul>
-                </div>
-                <div class="emoji">
-                    <img src="images/icons/rocket.webp" alt="rocket emoji">
-                </div>
-            </div>
+        <div class="children">
             <div class="divider"></div>
-            <span style="font-style: italic">Jij legt het ei, wij broeden het uit.</span>
-        </div>
-        <div class="container item_container">
-            <div class="top">
-                <span class="header">Project</span>
-                <div class="list_collection">
-                    <ul>
-                        <li><i class="fa-solid fa-egg"></i> implementaties</li>
-                        <li><i class="fa-solid fa-egg"></i> (cloud) migratie</li>
-                        <li><i class="fa-solid fa-egg"></i> optimalisaties</li>
-                    </ul>
-                </div>
-                <div class="emoji">
-                    <img src="images/icons/plane.webp" alt="plane emoji">
-                </div>
+
+            <div class="item">
+                <div class="text">Strategisch advies <span class="blue-font">></span></div>
             </div>
+
             <div class="divider"></div>
-            <span style="font-style: italic">Vliegen zonder turbulentie.</span>
-        </div>
-        <div class="container item_container">
-            <div class="top">
-                <span class="header">Beheer</span>
-                <div class="list_collection">
-                    <ul>
-                        <li><i class="fa-solid fa-egg"></i> netwerkbeheer</li>
-                        <li><i class="fa-solid fa-egg"></i> werkplekken</li>
-                        <li><i class="fa-solid fa-egg"></i> hosting</li>
-                    </ul>
-                </div>
-                <div class="emoji">
-                    <img src="images/icons/nest_eggs.webp" alt="eggs in nest emoji">
-                </div>
+
+            <div class="item">
+                <div class="text">IT-architectuur <span class="blue-font">></span></div>
             </div>
+
             <div class="divider"></div>
-            <span style="font-style: italic">Geen stress in het nest.</span>
+
+            <div class="item">
+                <div class="text">AI & Automatisering <span class="blue-font">></span></div>
+            </div>
         </div>
-    </section>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="item">
+        <div class="text">Project <span class="blue-font">></span></div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="item">
+        <div class="text">Beheer <span class="blue-font">></span></div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="item">
+        <div class="text">Contact <span class="blue-font">></span></div>
+    </div>
+</nav>
+
+<main>
+    <h2 style="color: #111111">Wij zijn Koekoek 🧠</h2>
 </main>
 
 <footer>
-    <div class="inner">
-        <div class="upper">
-            <div class="list_section">
-                <img style="width: 140px; padding: 10px 0" src="images/koekoek_text_white.webp" alt="">
-                <a href="">over ons</a>
-                <a href="">werken bij</a>
-                <a href="">cases</a>
-                <a href="">support</a>
-                <a href="">contact us</a>
-            </div>
+    <div class="container">
+        <div class="koekoek_logo">
+            <span>koekoek</span>
+            <span class="blue-font">></span>
         </div>
-        <div class="lower">
-            <p>made with ❤️ by <a href="https://www.brunobouwman.nl/">Bruno</a></p>
+        <div class="socials">
+            <div class="social"></div>
+            <div class="social"></div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="container gray-font">
+        <div>
+            © 2025 Koekoek<br>KVK-nummer: 91239745
         </div>
     </div>
 </footer>
 
 <script src="https://kit.fontawesome.com/947c4c8fa0.js" crossorigin="anonymous"></script>
+<script src="scripts/nav.js"></script>
 
 </body>
 </html>
