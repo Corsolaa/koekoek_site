@@ -98,6 +98,10 @@ button {
     overflow: hidden;
 }
 
+.hidden {
+    display: none;
+}
+
 /* after tablet width */
 @media (min-width: 768px) {
     .hide_mobile {
