@@ -1,0 +1,19 @@
+:root {
+    --max-width: 1400px;
+    --content-padding: 20px;
+}
+
+:root {
+    --white: white;
+    --blue: #3B8BFF;
+    --black: #111111;
+    --gray: #898989;
+}
+
+.blue-font {
+    color: var(--blue) !important;
+}
+
+.gray-font {
+    color: var(--gray) !important;
+}

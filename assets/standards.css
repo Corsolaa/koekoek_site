@@ -13,9 +13,9 @@
 
 body {
     min-height: 100vh;
-    color: #3E4042;
+    color: white;
     font-family: "Poppins", serif;
-    background: #EAE6E5;
+    background: var(--black);
 }
 
 /* Makes sure that images always fit and are visible. */
@@ -44,6 +44,13 @@ summary,
     display: none;
 }
 
+@font-face {
+    font-family: 'koekoek';
+    src: url('/assets/fonts/Museo700-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 button {
     display: inline-block;
 
@@ -57,9 +64,42 @@ button {
     background: #e6b400;
 }
 
-.header {
-    font-weight: bold;
-    font-size: 2em;
+.koekoek_logo {
+    display: flex;
+    font-size: 40px;
+    gap: 3px;
+
+    span {
+        color: var(--white);
+    }
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background: var(--gray);
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.lock_scroll {
+    overflow: hidden;
+}
+
+.hide_scrollbar {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.hide_scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
 }
 
 /* after tablet width */
