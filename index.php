@@ -21,7 +21,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 
-<!--<body class="lock_scroll">-->
 <body>
 
 <header>
@@ -84,6 +83,8 @@
 </nav>
 
 <main>
+    <div class="blur_circle"></div>
+
     <h2 style="color: #111111">Wij zijn Koekoek 🧠</h2>
 </main>
 

@@ -8,6 +8,10 @@ header {
     display: flex;
     align-items: flex-end;
 
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+
     background: var(--black);
 
     height: 120px;
@@ -22,7 +26,6 @@ header {
         justify-content: space-between;
 
         width: 100%;
-        /* height: 50px; */
 
         .mobile_nav_button {
             display: flex;
@@ -44,6 +47,11 @@ nav.mobile {
 
     height: 0;
     width: 100%;
+
+    background: var(--black);
+
+    position: absolute;
+    z-index: 2;
 
     .item {
         display: flex;
@@ -82,12 +90,26 @@ nav.mobile.active {
 }
 
 main {
-    background: var(--white);
+    background: var(--black);
     min-height: 120px;
 
     height: calc(600px - 120px);
 
     padding: 40px 24px;
+
+    .blur_circle {
+        position: absolute;
+        top: 0;
+        left: -100px;
+
+        width: 300px;
+        height: 300px;
+
+        background: #2d2b5c;
+        border-radius: 50%;
+        filter: blur(50px);
+        opacity: 0.7;
+    }
 }
 
 footer {
